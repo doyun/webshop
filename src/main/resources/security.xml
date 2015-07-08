@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<security>
+    <constraint>
+        <url-pattern>/checkout</url-pattern>
+        <role>USER</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/checkout-confirm</url-pattern>
+        <role>USER</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/logout</url-pattern>
+        <role>USER</role>
+    </constraint>
+    <constraint>
+        <url-pattern>/testForbidden</url-pattern>
+        <role>TEST_USER</role>
+    </constraint>
+</security>

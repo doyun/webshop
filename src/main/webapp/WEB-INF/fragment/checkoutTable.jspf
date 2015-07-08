@@ -1,0 +1,34 @@
+<div id="order-detail-content" class="col-md-12">
+	<table class="table table-bordered ">
+		<thead>
+			<tr>
+				<th>Product</th>
+				<th>Unit price</th>
+				<th>Qty</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<c:forEach items="${order.items }" var="item">
+				<tr>
+					<td>
+						<div class="">
+							<h3>${item.name}</h3>
+						</div>
+					</td>
+					<td data-title="Unit price"><span>$${item.price}</span></td>
+					<td><span>${item.amount}</span></td>
+					<td data-title="Total"><span> $${item.price *
+							item.amount}</span></td>
+				</tr>
+			</c:forEach>
+		</tbody>
+		<tfoot>
+			<tr>
+
+				<td colspan="3" class="text-right">Total</td>
+				<td id="cartPrice">$${order.price}</td>
+			</tr>
+		</tfoot>
+	</table>
+</div>

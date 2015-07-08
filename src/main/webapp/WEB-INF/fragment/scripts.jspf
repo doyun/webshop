@@ -1,0 +1,21 @@
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/responsive-nav.js"></script>
+
+<!----search-scripts---->
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/uisearch.js"></script>
+
+
+<!-- Slider -->
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/fwslider.js"></script>
+
+<script src="js/page-elements-manager.js"></script>
+
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/fileinput.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+<script type="text/javascript" src="js/form-validation.js"></script>

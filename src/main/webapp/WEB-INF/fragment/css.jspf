@@ -1,0 +1,14 @@
+<link rel="icon" type="image/png" href="images/logo.png" />
+
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/fileinput.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/jquery-ui.css" rel='stylesheet' type='text/css' />
+<link href="css/font-awesome.min.css" rel='stylesheet' type='text/css' />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!-- Slider -->
+<link rel="stylesheet" href="css/fwslider.css" type='text/css' >
+
+<link rel="stylesheet" href="css/form-validation.css" type='text/css'>

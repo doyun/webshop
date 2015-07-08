@@ -1,0 +1,30 @@
+<nav class="navbar navbar-inverse header">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <div class="logo">
+			<a href="/WebShop/index"><img src="images/logo.png" alt="" /></a>
+	     </div>
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        	<li class="menu-li"><a class="menu-a" href='<c:url value="/shop"/>'><fmt:message key="navbar.shop"/></a></li>
+	        	<li class="menu-li">
+	        		<a class="menu-a" href='<c:url value="/cart"/>'><fmt:message key="navbar.cart"/>
+	        			<span class="badge" id="cartBadge">${(cart.amount eq 0) ? '':cart.amount }</span>
+	        		</a>
+	        	</li>
+				<webshop:l10n availibleLanguages="${ availibleLocales}" />
+	      </ul>
+          <webshop:login user="${user}" disableLoginInfo="${disableLoginInfo}"/>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+</nav>
